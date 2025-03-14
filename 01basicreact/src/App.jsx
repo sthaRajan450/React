@@ -1,10 +1,12 @@
 import About from "./About";
 
 function App() {
+  const username = "Rajan Shrestha";
   return (
     <>
-      <h1>Hello World! | Rajan Shrestha</h1>
-      <About /> 
+      {/* evaluated js expressions */}
+      <h1>Hello World! | {username}</h1>
+      <About />
     </>
   );
 }
